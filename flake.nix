@@ -1,5 +1,5 @@
 {
-  description = "A simple Go program";
+  description = "A simple CLI to go templates";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -17,7 +17,7 @@
           pname = "gotmpl";
           version = "0.1.0";
           src = ./.;
-          vendorHash = "sha256-1g5na3vf1hpijsz2xdg8riv1bv9vvvds5q6pmycdwqqxnfn774b9";
+          vendorHash = "sha256-aZFzrLMdY96Yr9fgotveO+0VdszotS6+lvHC4PZQtrw=";
         };
       });
 }
